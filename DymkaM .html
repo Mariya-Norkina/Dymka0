@@ -1,0 +1,273 @@
+<DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="utf-8">
+      <title> Главная </title> 
+	   <style>
+	   h1{ font-style:garamond;
+     font-size:50px;
+     margin-top:250px;
+	 z-index:1;
+	 position:relative;
+	 color:#460E04;
+}	 
+.p1 {font-style:garamond;
+	 font-size:30px;
+     margin-top: 20px;
+	 margin-left:400px;
+	 margin-right:400px;
+	 color:#460E04;
+	 z-index:9;
+} 
+.p2 {font-style:garamond;
+	 font-size:25px;
+     margin-top: 400px;
+	 color:#460E04;
+}
+.p3 {font-family:garamond;
+     color:black;
+	 font-size:26px;
+	 position:relative;
+	 margin-left:525px;
+	 margin-right:525px;
+	 top:260px;
+     text-align:justify;
+	 font-weight:500;
+	 color:#460E04;
+}
+.p4 {font-style:garamond;
+	 font-size:30px;
+     margin-top: 600px;
+	 color:#460E04;
+}
+.p5 {margin-left:100px;
+     font-size:27px;
+     margin-right:900px;
+	 text-align:justify;
+	 position:absolute;
+	 color:#460E04;
+}
+.p6 {position:relative;
+     margin-left:500px;
+	 font-size:27px;
+	 margin-right:470px;
+	 text-align:justify;
+	 color:#460E04;
+}
+.p7 {position:relative;
+     margin-left:900px;
+	 font-size:27px;
+	 margin-right:95px;
+	 margin-top:-265px;
+	 text-align:justify;
+	 color:#460E04;
+} 
+.p8 {opacity:0.5;
+     font-size:150px;
+	 position:relative;
+	 margin-top:-700px;
+	 margin-right:450px;
+}
+.p9 {opacity:0.5;
+     font-size:150px;
+	 position:relative;
+	 margin-top:140px;
+	 margin-left:700px;}
+.p10 {opacity:0.4;
+     font-size:125px;
+	 position:relative;
+	 margin-top:-200px;
+	 margin-right:565px;}
+.p11 {opacity:0.3;
+     font-size:100px;
+	 position:relative;
+	 margin-top:-150px;
+	 margin-right:680px;}
+.p12 {opacity:0.2;
+     font-size:75px;
+	 position:relative;
+	 margin-top:-110px;
+	 margin-right:800px;}
+.p13 {opacity:0.4;
+     font-size:125px;
+	 position:relative;
+	 margin-top:-400px;
+	 margin-left:780px;}
+.p14 {opacity:0.3;
+     font-size:100px;
+	 position:relative;
+	 margin-top:-330px;
+	 margin-left:850px;}
+.p15 {opacity:0.2;
+     font-size:75px;
+	 position:relative;
+	 margin-top:-270px;
+	 margin-left:920px;}
+.p16 {font-style:garamond;
+	 font-size:30px;
+     margin-top: 400px;
+	 margin-left:325px;
+	 margin-bottom:100px;
+	 text-align:center;
+	 position:absolute;
+	 color:#460E04;}
+.img1 {top: 0px;
+     position:absolute;
+}
+.img2{margin-left:100px;
+     border-radius:15px;
+	 position:absolute;
+	 opacity:1;}
+.img3 {position:relative;
+      margin-left:100px;
+	  top:0px;
+	  border-radius:10px;}
+.img4 {position:relative;
+      margin-left:45px;
+	  border-radius:10px;}
+.img5 {position:relative;
+      margin-left:900px;
+	  border-radius:10px;
+	  margin-top:-530px;}
+.img6 {position:center;
+     margin-top:-150px;
+	 opacity:0.95;
+	 z-index:0;}
+.img7 {bottom:10px;
+     top:1200px;}
+.img8 {margin-top:425px;
+     margin-left:43%;}
+	 
+.citate {margin-top:50px;}
+.colonka {margin-top:100px;}
+.mnogo {margin-left:200px;
+      margin-top:100px;
+	  position:relative;
+	  opacity:0.95;
+	  z-index:8;}
+.kon {position:absolute;
+      left:0px;
+	  margin-top:50px;}
+.dym {margin-top:150px;}
+article {margin-top:100px;}
+
+
+.top-menu {
+  position: fixed;
+  background: rgba(255,255,255);
+  width:100%;
+  box-shadow:0px 0px 1px #696969;
+  position: sticky; 
+  top: 0px;
+  margin-top:700px;
+  z-index:11;
+}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.menu-main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left-item {float: left;}
+.right-item {float: right;}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  margin-top:15px;
+}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  line-height: 80px;
+  padding: 0 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight:900;
+  color: #260C01;
+  transition: .3s linear;
+}
+.menu-main a:hover {background: rgba(255,134,48);}
+@media (max-width: 830px) {
+.menu-main {
+  padding-top: 90px;
+  text-align: center;
+}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  
+}
+.menu-main li {
+  float: none;
+  display: inline-block;
+}
+.menu-main a {
+  line-height: normal;
+  padding: 20px 15px;
+  font-size: 16px;
+}
+}
+@media (max-width: 630px) {
+.menu-main li {display: block;}
+	   </style>
+  </head>
+  
+  <body>
+       <article class="container">
+           <h1 align="center" > <font face="garamond"> Добро пожаловать! </font> </h1>
+		     <img src="https://i.yapx.ru/Vz5Uv.png" width="1333px" class="img1">
+	   </article>
+	   <nav class="top-menu" id="navbar">
+  <ul class="menu-main">
+    <li class="left-item"><a href="DymkaH.html"><font face="CooperBlack">О дымковской игрушке</font></a></li>
+    <li class="left-item"><a href="DymkaV.html"><font face="CooperBlack">Виды</font></a></li>
+    <li class="right-item"><a href="DymkaT.html"><font face="CooperBlack">Технология изготовления</font></a></li>
+    <li class="right-item"><a href="DymkaG.html"><font face="CooperBlack">Где посмотреть</font></a></li>
+</ul>
+  <a class="navbar-logo" href="DymkaM.html"><img src="https://i.yapx.ru/Vz5W2.png" height="150px" class="logotype"></a>
+</nav>
+	   <article align="center">
+	      <img src="https://i.yapx.ru/Vz5Vj.png" width="200px" align="center" class="img7">
+	        <p class="p1" align="center"> <font face="garamond"> На этом сайте вы можете ознакомиться с известнейшим ремеслом Кировской области - <b>дымковской игрушкой</b> </font> </p>  
+              <img src="https://i.yapx.ru/Vz5ZI.png" width="1000px" class="img6">
+	   </article>
+	  <div class="citate">
+	    <img class="img2" src="https://i.yapx.ru/Vz5ZR.png" width="1133px"  align="center">
+		  <p class="p3"><b>"Без веселых нарядных дымковских фигурок уже много десятилетий не обходится ни одна выставка народного искусства"<br> <br>-И.Я.Богуславская,<br>"Дымковская игрушка" </b>	      
+		  </p>
+		    <p class="p4" align="center" ><font face="garamond"><b> Что делает дымковскую игрушку такой уникальной?</b></font></p>
+	 <div class="colonka">
+	  <img src="http://www.ya-zemlyak.ru/images/photoarhiv/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%81%D0%BB%D1%8B/%D0%94%D1%8B%D0%BC%D0%98%D0%B3%D1%80%D0%98%D0%B7%D0%B301.jpg" width="350px" class="img3">
+	   <p class="p5"><font face="garamond" ><b>Простота</b><br><br> Игрушка имеет простые и плавные формы, а также изготавливается из материалов, которые легко достать. Это глина, белила и краски.</font></p>
+	    <img src="https://lisa.ru/images/cache/2022/12/22/widen_960_crop_847_547_93_138_q90_1735462_280565a8d525bd2e4ad97f787.jpeg" width="350px" height="234px" class="img4">
+	     <p class="p6"><font face="garamond" ><b>Яркость</b><br><br> Узор дымковских игрушек не спутать ни с одним другим: традиционно фигурки расписывают яркими цветами с узором ввиде кругов, веточек и всевозможных линий.</font></p>
+	      <img src="https://sun9-66.userapi.com/impg/kx9HJH6s1YFX7bI9bhUXe5jB5m3UHdkHdEsS9Q/ANpgbQUUw_g.jpg?size=1000x667&quality=95&sign=a721c7a4ff0123f9a7fd785931618c74&type=album" width="350px" height="234px" class="img5">
+	       <p class="p7"><font face="garamond" ><b>Неповторимость</b><br><br>Каждая игрушка изготавливается мастером вручную, а потому одно изделие не походит на другое.</font></p>
+	 </div>
+	  </div>
+	<div class="dym">
+	  <img src="https://i.yapx.ru/Vz5dJ.png" width="900px" align="center" class="mnogo">
+	   <p class="p8" align="center" ><font face="garamond" color="C80000" > Дымковская</font></p> 
+	   <p class="p10" align="center" ><font face="garamond" color="C80000" > Дымковская</font></p>
+	   <p class="p11" align="center" ><font face="garamond" color="C80000" > Дымковская</font></p>
+       <p class="p12" align="center" ><font face="garamond" color="C80000" > Дымковская</font></p>    
+	    <p class="p9" align="center" ><font face="garamond" color="FFC400"> игрушка</font></p>
+		<p class="p13" align="center" ><font face="garamond" color="FFC400"> игрушка</font></p>
+		<p class="p14" align="center" ><font face="garamond" color="FFC400"> игрушка</font></p>
+		<p class="p15" align="center" ><font face="garamond" color="FFC400"> игрушка</font></p>
+		  <p class="p16"><font face="garamond"> <b>Откройте для себя промысел дымковской игрушки!</b></font></p>
+		   <img src="https://i.yapx.ru/Vz5Vj.png" width="200px" align="center" class="img8">
+	        <img src="https://i.yapx.ru/Vz5dv.png" width="1333px" class="kon">
+		  
+	</div>
+  </body>
+ </html>
